@@ -6,16 +6,7 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: [
-    {
-      use: '@gridsome/source-graphql',
-      options: {
-        url:
-        'your-api-url',
-        fieldName: 'customField',
-        typeName: 'customFieldTypes'
-      }
-    }],
+  plugins: [],
 
   siteUrl: 'https://5810110644.github.io',
   pathPrefix: '/gridsome',
